@@ -1,0 +1,11 @@
+C:\ProyectosImeris\CreatePDFApp\CreatePDF\CreatePDFLogic\bin\Release\netcoreapp3.1\Template\Template.html
+C:\ProyectosImeris\CreatePDFApp\CreatePDF\CreatePDFLogic\bin\Release\netcoreapp3.1\UpdateDataTemplate.deps.json
+C:\ProyectosImeris\CreatePDFApp\CreatePDF\CreatePDFLogic\bin\Release\netcoreapp3.1\UpdateDataTemplate.dll
+C:\ProyectosImeris\CreatePDFApp\CreatePDF\CreatePDFLogic\bin\Release\netcoreapp3.1\UpdateDataTemplate.pdb
+C:\ProyectosImeris\CreatePDFApp\CreatePDF\CreatePDFLogic\obj\Release\netcoreapp3.1\UpdateDataTemplate.csproj.AssemblyReference.cache
+C:\ProyectosImeris\CreatePDFApp\CreatePDF\CreatePDFLogic\obj\Release\netcoreapp3.1\UpdateDataTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectosImeris\CreatePDFApp\CreatePDF\CreatePDFLogic\obj\Release\netcoreapp3.1\UpdateDataTemplate.AssemblyInfoInputs.cache
+C:\ProyectosImeris\CreatePDFApp\CreatePDF\CreatePDFLogic\obj\Release\netcoreapp3.1\UpdateDataTemplate.AssemblyInfo.cs
+C:\ProyectosImeris\CreatePDFApp\CreatePDF\CreatePDFLogic\obj\Release\netcoreapp3.1\UpdateDataTemplate.csproj.CoreCompileInputs.cache
+C:\ProyectosImeris\CreatePDFApp\CreatePDF\CreatePDFLogic\obj\Release\netcoreapp3.1\UpdateDataTemplate.dll
+C:\ProyectosImeris\CreatePDFApp\CreatePDF\CreatePDFLogic\obj\Release\netcoreapp3.1\UpdateDataTemplate.pdb

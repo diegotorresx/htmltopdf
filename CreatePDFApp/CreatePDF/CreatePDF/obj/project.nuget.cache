@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "tfg06uxzSHwgJXraYIdaC6NQaeWJspJH59i3ou97G9MJuX2I8+0RPJ2V3uOohfIWPWqZKl6m5xho2VybCXpYmw==",
+  "success": true,
+  "projectFilePath": "C:\\ProyectosImeris\\CreatePDFApp\\CreatePDF\\CreatePDF\\CreatePDF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\ironpdf\\2020.12.2\\ironpdf.2020.12.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\ironpdf.assets.rendering.universal\\21.0.0\\ironpdf.assets.rendering.universal.21.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\pdf.core\\2020.12.2\\pdf.core.2020.12.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\syncfusion.htmltopdfconverter.qtwebkit.net.core\\19.3.0.54\\syncfusion.htmltopdfconverter.qtwebkit.net.core.19.3.0.54.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

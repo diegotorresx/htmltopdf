@@ -1,0 +1,468 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "IronPdf/2020.12.2": {
+        "type": "package",
+        "dependencies": {
+          "IronPdf.Assets.Rendering.Universal": "21.0.0",
+          "System.Drawing.Common": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IronPdf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronPdf.dll": {}
+        }
+      },
+      "IronPdf.Assets.Rendering.Universal/21.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/IronPdf.Assets.Rendering.Universal.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronPdf.Assets.Rendering.Universal.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "PDF.Core/2020.12.2": {
+        "type": "package",
+        "dependencies": {
+          "IronPdf": "2020.12.2"
+        }
+      },
+      "Syncfusion.HtmlToPdfConverter.QtWebKit.Net.Core/19.3.0.54": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {},
+          "lib/netstandard2.0/Syncfusion.HtmlConverter.Portable.dll": {},
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {},
+          "lib/netstandard2.0/Syncfusion.HtmlConverter.Portable.dll": {},
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "UpdateDataTemplate/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/UpdateDataTemplate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UpdateDataTemplate.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IronPdf/2020.12.2": {
+      "sha512": "qO6zxAFO7SEZ6U6UecSUU24o03FbAjnShMnX2ZA5cY3pVy+jY3gzrlOfIVlek0vcEYiGDvQF6+AMTOmf9SbRqA==",
+      "type": "package",
+      "path": "ironpdf/2020.12.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.txt",
+        "ironpdf.2020.12.2.nupkg.sha512",
+        "ironpdf.nuspec",
+        "lib/net40/IronPdf.dll",
+        "lib/net40/IronPdf.xml",
+        "lib/net45/IronPdf.dll",
+        "lib/net45/IronPdf.xml",
+        "lib/netstandard2.0/IronPdf.dll",
+        "lib/netstandard2.0/IronPdf.xml",
+        "readme-setup.txt",
+        "readme.txt"
+      ]
+    },
+    "IronPdf.Assets.Rendering.Universal/21.0.0": {
+      "sha512": "7ocrsH/kxX0Lqg5SwJmKHtj95DGO01qlRAYrR1vpS7FVqPwg1SWboj4SvD5sxnaxxt08yANUgB87KTviU4oq1g==",
+      "type": "package",
+      "path": "ironpdf.assets.rendering.universal/21.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ironpdf.assets.rendering.universal.21.0.0.nupkg.sha512",
+        "ironpdf.assets.rendering.universal.nuspec",
+        "lib/netstandard2.0/IronPdf.Assets.Rendering.Universal.dll"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "sha512": "mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/net461/Microsoft.Win32.SystemEvents.xml",
+        "ref/net472/Microsoft.Win32.SystemEvents.dll",
+        "ref/net472/Microsoft.Win32.SystemEvents.xml",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "PDF.Core/2020.12.2": {
+      "sha512": "KIiQuEp7fzguwLA2ref5fI41Sw5IoqHsO8BUOrBL2bANdZJiIK+JeSfhtsTsr7+kx7YrfSezC+YIim5V+GV3aw==",
+      "type": "package",
+      "path": "pdf.core/2020.12.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Pdf.Core.Readme.txt",
+        "pdf.core.2020.12.2.nupkg.sha512",
+        "pdf.core.nuspec"
+      ]
+    },
+    "Syncfusion.HtmlToPdfConverter.QtWebKit.Net.Core/19.3.0.54": {
+      "sha512": "J69A1JrZCiKV/95S9ToPmFOXXT2eNpzFdK5vrfPm8pXBUULYyLMJXMeprY+WBZDx3bGbMFQ5Wm9F9naed7ZIFA==",
+      "type": "package",
+      "path": "syncfusion.htmltopdfconverter.qtwebkit.net.core/19.3.0.54",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/QtBinariesLinux/Syncfusion.WebKitWrapper",
+        "lib/QtBinariesLinux/imageformats/libqdds.so",
+        "lib/QtBinariesLinux/imageformats/libqgif.so",
+        "lib/QtBinariesLinux/imageformats/libqicns.so",
+        "lib/QtBinariesLinux/imageformats/libqico.so",
+        "lib/QtBinariesLinux/imageformats/libqjp2.so",
+        "lib/QtBinariesLinux/imageformats/libqjpeg.so",
+        "lib/QtBinariesLinux/imageformats/libqmng.so",
+        "lib/QtBinariesLinux/imageformats/libqsvg.so",
+        "lib/QtBinariesLinux/imageformats/libqtga.so",
+        "lib/QtBinariesLinux/imageformats/libqtiff.so",
+        "lib/QtBinariesLinux/imageformats/libqwbmp.so",
+        "lib/QtBinariesLinux/imageformats/libqwebp.so",
+        "lib/QtBinariesLinux/libGL.so.1",
+        "lib/QtBinariesLinux/libQt5Core.so.5",
+        "lib/QtBinariesLinux/libQt5DBus.so.5",
+        "lib/QtBinariesLinux/libQt5Gui.so.5",
+        "lib/QtBinariesLinux/libQt5Multimedia.so.5",
+        "lib/QtBinariesLinux/libQt5MultimediaWidgets.so.5",
+        "lib/QtBinariesLinux/libQt5Network.so.5",
+        "lib/QtBinariesLinux/libQt5OpenGL.so.5",
+        "lib/QtBinariesLinux/libQt5Positioning.so.5",
+        "lib/QtBinariesLinux/libQt5PrintSupport.so.5",
+        "lib/QtBinariesLinux/libQt5Qml.so.5",
+        "lib/QtBinariesLinux/libQt5Quick.so.5",
+        "lib/QtBinariesLinux/libQt5Sensors.so.5",
+        "lib/QtBinariesLinux/libQt5Sql.so.5",
+        "lib/QtBinariesLinux/libQt5Svg.so.5",
+        "lib/QtBinariesLinux/libQt5WebChannel.so.5",
+        "lib/QtBinariesLinux/libQt5WebKit.so.5",
+        "lib/QtBinariesLinux/libQt5WebKitWidgets.so.5",
+        "lib/QtBinariesLinux/libQt5Widgets.so.5",
+        "lib/QtBinariesLinux/libQt5XcbQpa.so.5",
+        "lib/QtBinariesLinux/libicudata.so.55",
+        "lib/QtBinariesLinux/libicui18n.so.55",
+        "lib/QtBinariesLinux/libicuuc.so.55",
+        "lib/QtBinariesLinux/libjpeg.so.8",
+        "lib/QtBinariesLinux/libpng12.so.0",
+        "lib/QtBinariesLinux/libsqlite3.so.0",
+        "lib/QtBinariesLinux/libstdc++.so.6",
+        "lib/QtBinariesLinux/platforms/libqminimal.so",
+        "lib/QtBinariesLinux/platforms/libqoffscreen.so",
+        "lib/QtBinariesLinux/platforms/libqxcb.so",
+        "lib/QtBinariesMac/Syncfusion.WebKitWrapper",
+        "lib/QtBinariesMac/imageformats/libqdds.dylib",
+        "lib/QtBinariesMac/imageformats/libqgif.dylib",
+        "lib/QtBinariesMac/imageformats/libqicns.dylib",
+        "lib/QtBinariesMac/imageformats/libqico.dylib",
+        "lib/QtBinariesMac/imageformats/libqjp2.dylib",
+        "lib/QtBinariesMac/imageformats/libqjpeg.dylib",
+        "lib/QtBinariesMac/imageformats/libqmng.dylib",
+        "lib/QtBinariesMac/imageformats/libqsvg.dylib",
+        "lib/QtBinariesMac/imageformats/libqtga.dylib",
+        "lib/QtBinariesMac/imageformats/libqtiff.dylib",
+        "lib/QtBinariesMac/imageformats/libqwbmp.dylib",
+        "lib/QtBinariesMac/imageformats/libqwebp.dylib",
+        "lib/QtBinariesMac/libQt5Core.5.dylib",
+        "lib/QtBinariesMac/libQt5DBus.5.dylib",
+        "lib/QtBinariesMac/libQt5Gui.5.dylib",
+        "lib/QtBinariesMac/libQt5Multimedia.5.dylib",
+        "lib/QtBinariesMac/libQt5MultimediaWidgets.5.dylib",
+        "lib/QtBinariesMac/libQt5Network.5.dylib",
+        "lib/QtBinariesMac/libQt5OpenGL.5.dylib",
+        "lib/QtBinariesMac/libQt5Positioning.5.dylib",
+        "lib/QtBinariesMac/libQt5PrintSupport.5.dylib",
+        "lib/QtBinariesMac/libQt5Qml.5.dylib",
+        "lib/QtBinariesMac/libQt5Quick.5.dylib",
+        "lib/QtBinariesMac/libQt5Sensors.5.dylib",
+        "lib/QtBinariesMac/libQt5Sql.5.dylib",
+        "lib/QtBinariesMac/libQt5Svg.5.dylib",
+        "lib/QtBinariesMac/libQt5WebChannel.5.dylib",
+        "lib/QtBinariesMac/libQt5WebKit.5.dylib",
+        "lib/QtBinariesMac/libQt5WebKitWidgets.5.dylib",
+        "lib/QtBinariesMac/libQt5Widgets.5.dylib",
+        "lib/QtBinariesMac/libcrypto.1.0.0.dylib",
+        "lib/QtBinariesMac/libssl.1.0.0.dylib",
+        "lib/QtBinariesMac/platforms/libqcocoa.dylib",
+        "lib/QtBinariesMac/platforms/libqminimal.dylib",
+        "lib/QtBinariesMac/platforms/libqoffscreen.dylib",
+        "lib/QtBinariesWindows/Qt5Core.dll",
+        "lib/QtBinariesWindows/Qt5Gui.dll",
+        "lib/QtBinariesWindows/Qt5Multimedia.dll",
+        "lib/QtBinariesWindows/Qt5MultimediaWidgets.dll",
+        "lib/QtBinariesWindows/Qt5Network.dll",
+        "lib/QtBinariesWindows/Qt5OpenGL.dll",
+        "lib/QtBinariesWindows/Qt5Positioning.dll",
+        "lib/QtBinariesWindows/Qt5PrintSupport.dll",
+        "lib/QtBinariesWindows/Qt5Qml.dll",
+        "lib/QtBinariesWindows/Qt5Quick.dll",
+        "lib/QtBinariesWindows/Qt5Sensors.dll",
+        "lib/QtBinariesWindows/Qt5Sql.dll",
+        "lib/QtBinariesWindows/Qt5Svg.dll",
+        "lib/QtBinariesWindows/Qt5WebChannel.dll",
+        "lib/QtBinariesWindows/Qt5WebKit.dll",
+        "lib/QtBinariesWindows/Qt5WebKitWidgets.dll",
+        "lib/QtBinariesWindows/Qt5Widgets.dll",
+        "lib/QtBinariesWindows/Syncfusion.WebKitWrapper",
+        "lib/QtBinariesWindows/icudt49.dll",
+        "lib/QtBinariesWindows/icuin49.dll",
+        "lib/QtBinariesWindows/icuuc49.dll",
+        "lib/QtBinariesWindows/imageformats/qdds.dll",
+        "lib/QtBinariesWindows/imageformats/qgif.dll",
+        "lib/QtBinariesWindows/imageformats/qicns.dll",
+        "lib/QtBinariesWindows/imageformats/qico.dll",
+        "lib/QtBinariesWindows/imageformats/qjp2.dll",
+        "lib/QtBinariesWindows/imageformats/qjpeg.dll",
+        "lib/QtBinariesWindows/imageformats/qmng.dll",
+        "lib/QtBinariesWindows/imageformats/qsvg.dll",
+        "lib/QtBinariesWindows/imageformats/qtga.dll",
+        "lib/QtBinariesWindows/imageformats/qtiff.dll",
+        "lib/QtBinariesWindows/imageformats/qwbmp.dll",
+        "lib/QtBinariesWindows/imageformats/qwebp.dll",
+        "lib/QtBinariesWindows/libEGL.dll",
+        "lib/QtBinariesWindows/libGLESv2.dll",
+        "lib/QtBinariesWindows/platforms/qminimal.dll",
+        "lib/QtBinariesWindows/platforms/qoffscreen.dll",
+        "lib/QtBinariesWindows/platforms/qwindows.dll",
+        "lib/QtBinariesWindows/zlib1.dll",
+        "lib/netstandard2.0/Syncfusion.Compression.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.Compression.Portable.xml",
+        "lib/netstandard2.0/Syncfusion.HtmlConverter.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.HtmlConverter.Portable.xml",
+        "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.Pdf.Portable.xml",
+        "syncfusion.htmltopdfconverter.qtwebkit.net.core.19.3.0.54.nupkg.sha512",
+        "syncfusion.htmltopdfconverter.qtwebkit.net.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "System.Drawing.Common/4.7.0": {
+      "sha512": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "type": "package",
+      "path": "system.drawing.common/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.4.7.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "UpdateDataTemplate/1.0.0": {
+      "type": "project",
+      "path": "../CreatePDFLogic/UpdateDataTemplate.csproj",
+      "msbuildProject": "../CreatePDFLogic/UpdateDataTemplate.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "PDF.Core >= 2020.12.2",
+      "Syncfusion.HtmlToPdfConverter.QtWebKit.Net.Core >= 19.3.0.54",
+      "UpdateDataTemplate >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\ProyectosImeris\\CreatePDFApp\\CreatePDF\\CreatePDF\\CreatePDF.csproj",
+      "projectName": "CreatePDF",
+      "projectPath": "C:\\ProyectosImeris\\CreatePDFApp\\CreatePDF\\CreatePDF\\CreatePDF.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\ProyectosImeris\\CreatePDFApp\\CreatePDF\\CreatePDF\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\ProyectosImeris\\CreatePDFApp\\CreatePDF\\CreatePDFLogic\\UpdateDataTemplate.csproj": {
+              "projectPath": "C:\\ProyectosImeris\\CreatePDFApp\\CreatePDF\\CreatePDFLogic\\UpdateDataTemplate.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "PDF.Core": {
+            "target": "Package",
+            "version": "[2020.12.2, )"
+          },
+          "Syncfusion.HtmlToPdfConverter.QtWebKit.Net.Core": {
+            "target": "Package",
+            "version": "[19.3.0.54, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
